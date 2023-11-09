@@ -26,16 +26,29 @@ export class ProjectsComponent {
       name: "Yum Eats React",
       codeUrl: "https://github.com/mohamed0690/Eat-Yum",
       demoUrl: "https://mohamed0690.github.io/Eat-Yum/",
-      techUsed: ["ReactJs", "bootstrap", "json-server"]
+      techUsed: ["ReactJs", "bootstrap", "React Icons"]
     },
     {
-      src: "assets/projects-images/eatYum.png",
-      name: "Yum Eats React",
-      codeUrl: "https://github.com/mohamed0690/Eat-Yum",
-      demoUrl: "https://mohamed0690.github.io/Eat-Yum/",
-      techUsed: ["ReactJs", "bootstrap", "json-server"]
+      src: "assets/projects-images/book.png",
+      name: "E-Commerce Books",
+      codeUrl: "https://github.com/mohamed0690/ecommerce-books-api",
+      demoUrl: "https://mohamed0690.github.io/ecommerce-books-api/",
+      techUsed: ["HTML", "CSS", "JavaScript"]
     },
-
+    {
+      src: "assets/projects-images/weather.png",
+      name: "Weather IO",
+      codeUrl: "https://github.com/mohamed0690/weatherio",
+      demoUrl: "https://weatherio-one.vercel.app/",
+      techUsed: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      src: "assets/projects-images/yummy.png",
+      name: "Yummy Website",
+      codeUrl: "https://github.com/mohamed0690/food-api",
+      demoUrl: "https://64f4cbe1d2209b3939574b8c--eloquent-sherbet-daded3.netlify.app/",
+      techUsed: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    },
 
 
   ]
