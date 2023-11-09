@@ -27,7 +27,7 @@ export class CertificatesComponent {
 
     {
       src: "assets/certificates-images/1.jpeg",
-      credential: "https://www.linkedin.com/learning/certificates/b6e1d1cf30d2471e91e1cc32f9b492380923878c7d1ff71de2f67b3cf39622f7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzwjB7FDvTD%2BArSZbtWYCpg%3D%3D",
+      credential: "https://www.linkedin.com/learning/certificates/21849cbb7aef266fcf1bfe2f8e31f4c8a8465fc917024a0a208ae80464410288?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzwjB7FDvTD%2BArSZbtWYCpg%3D%3D"
     },
     {
       src: "assets/certificates-images/4.jpeg",
@@ -35,11 +35,11 @@ export class CertificatesComponent {
     },
     {
       src: "assets/certificates-images/2.jpeg",
-      credential: "https://www.linkedin.com/learning/certificates/21849cbb7aef266fcf1bfe2f8e31f4c8a8465fc917024a0a208ae80464410288?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzwjB7FDvTD%2BArSZbtWYCpg%3D%3D",
+      credential: "https://www.linkedin.com/learning/certificates/b6e1d1cf30d2471e91e1cc32f9b492380923878c7d1ff71de2f67b3cf39622f7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzwjB7FDvTD%2BArSZbtWYCpg%3D%3D",
     },
     {
       src: "assets/certificates-images/3.jpeg",
-      credential: "https://www.linkedin.com/learning/certificates/ba16c252307de51745663239c57797b1094b59993d8b97ebf0d9268edaa793c0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BzwjB7FDvTD%2BArSZbtWYCpg%3D%3D",
+      credential: "https://www.linkedin.com/learning/certificates/02e2bb88e597185062168d980eb0cdf1f2ea49aeef124a673ddccaf7c0365c99",
     },
     {
       src: "assets/certificates-images/network.png",
