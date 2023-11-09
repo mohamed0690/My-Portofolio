@@ -1,0 +1,148 @@
+aside {
+    background-color: #FFF;
+    border-radius: 1.25rem;
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 25px;
+    @media (max-width: 992px) {
+        margin-top: 130px;
+    }
+    .image {
+        border-radius: 20px;
+        position: absolute;
+        top: -129px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+
+    .title {
+        font-weight: 500;
+    }
+
+    .social {
+
+        .links {
+
+            .link-item {
+
+                .link {
+                    background-color: var(--light-color-2);
+                    border-radius: .5rem;
+                    width: 3.125rem;
+                    height: 3.125rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .3s;
+                    overflow: hidden;
+
+                    &:hover {
+                        background-color: var(--orange);
+                    }
+
+                    &:hover i {
+                        animation-name: comeFromTop;
+                        animation-duration: .6s;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        background-color: var(--light-color);
+        width: 80%;
+        border-radius: 1.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+
+        ul {
+            padding-left: 0;
+
+            li {
+                padding-top: .625rem;
+                padding-bottom: .625rem;
+                transition: .3s;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid #E3E3E3;
+                }
+
+                .icon {
+                    color: var(--orange);
+                }
+
+                .text>h4:first-child {
+                    color: var(--orange);
+                }
+
+                .icon {
+                    i {
+                        transition: .3s;
+                    }
+                }
+
+                &:hover {
+                    cursor: cell;
+                }
+
+                .text {
+                    transition: .3s;
+                }
+
+                &:hover .text {
+                    transform: translatex(.625rem);
+                }
+            }
+        }
+    }
+}
+
+.linkedin-color {
+    color: #0077b5;
+}
+
+.github-color {
+    color: var(--gray-100);
+}
+
+
+// download resume button
+.button-down {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: var(--orange);
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-down:hover,
+.button-down:focus-visible{
+  --_p: 0px;
+}
+
+.button-down:active {
+  background: var(--color);
+  color: #fff;
+}
+
+
+@keyframes comeFromTop {
+    0% {
+        transform: translateY(-80px);
+    }
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600;700;800&display=swap');
+
+:root {
+
+    // font-size: 16px;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 991px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 1201px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1201px) {
+        font-size: 18px;
+    }
+
+    $light-color: #F2F5F9;
+    $light-color-2: #E1E8EF;
+    $dark-color-1: #1d1b18;
+    $orange: #FF9C1B;
+    $lemon: #20e261;
+    $skyBlue: #aa3aff;
+    $red: #eb0867;
+    $white: #FFF;
+    $gray-100: #212529;
+    $shadow: rgba(100, 100, 111, 0.2);
+    // variables
+    --light-color: #{$light-color};
+    --light-color-2: #{$light-color-2};
+    --dark-color-1: #{$dark-color-1};
+    --orange: #{$orange};
+    --lemon: #{$lemon};
+    --skyBlue: #{$skyBlue};
+    --red: #{$red};
+    --body-bg: #{$light-color};
+    --body-color: #{$light-color-2};
+    --white: #{$white};
+    --gray-100: #{$gray-100};
+    --shadow: #{$shadow};
+    // fonts
+    --pacifico-font: 'Pacifico',
+    cursive;
+    --poppins-font: 'Poppins',
+    sans-serif;
+    --raleway-font: 'Raleway',
+    sans-serif;
+}
+
+[mode="dark"] {
+    $light-color: #1a1d21;
+    $light-color-2: #212529;
+    $dark-color-1: #FFF;
+    $orange: #20e261;
+    $skyBlue: #20e261;
+    $lemon: #FF9C1B;
+    $red: #058ED9;
+    $white: #292e32;
+    $gray-100: #ced4da;
+    $shadow: rgb(0 0 0 / 23%);
+    // variables
+    --light-color: #{$light-color};
+    --light-color-2: #{$light-color-2};
+    --dark-color-1: #{$dark-color-1};
+    --orange: #{$orange};
+    --lemon: #{$lemon};
+    --skyBlue: #{$skyBlue};
+    --red: #{$red};
+    --white: #{$white};
+    --gray-100: #{$gray-100};
+    --shadow: #{$shadow};
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+// Start Custom mouse
+.cursor {
+    cursor: none;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #eb0867;
+    border-radius: 50%;
+}
+
+// End Custom mouse
+
+// Start Scrollbar
+html::-webkit-scrollbar {
+    width: .625rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--light-color-2);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--orange);
+}
+
+// End Scrollbar
+
+.line {
+    background-color: var(--orange);
+    height: 1px;
+    width: 100%;
+}
+
+// font sizes
+@for $i from 10 through 50 {
+    .fs-#{$i} {
+        font-size: .125rem * $i/2;
+    }
+}
+
+// font-family classes
+.pacifico-font {
+    font-family: var(--pacifico-font);
+}
+
+.poppins-font {
+    font-family: var(--poppins-font);
+}
+
+.raleway-font {
+    font-family: var(--raleway-font);
+}
+
+// background-color classes
+.bg-main {
+    background-color: var(--light-color);
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+// color classes
+.text-orange {
+    color: var(--orange);
+}
+
+.text-lemon {
+    color: var(--lemon);
+}
+
+.text-sky {
+    color: var(--skyBlue);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-white {
+    color: var(--red);
+}
+
+.text-dark {
+    color: var(--gray-100) !important;
+}
+
+.text-dark-1 {
+    color: var(--dark-color-1);
+}
+
+// Font Weights
+.fw-semibold {
+    font-weight: 600;
+}
+
+// Global
+a {
+    text-decoration: none;
+    color: #000;
+
+    &:focus-visible {
+        padding: .2rem;
+        border: 1px solid var(--orange);
+        outline: none;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+[data-topbar="dark"] {
+    $bg-main: green;
+
+    .bg-main {
+        background-color: red !important;
+    }
+}
+
+// bootstrap classes override
+.rounded {
+    border-radius: 20px !important;
+}
+
+
+// Animations
+@keyframes line {
+    0% {
+        transform: translateX(50px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}

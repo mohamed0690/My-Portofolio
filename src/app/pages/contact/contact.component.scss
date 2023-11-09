@@ -1,0 +1,82 @@
+.contact-card {
+    flex-grow: 1;
+}
+
+.row {
+    --bs-gutter-x: 0;
+
+    .contact-link {
+        background-color: var(--light-color-2);
+        padding: 1rem;
+
+        &:nth-child(odd) {
+            border-left: 3px solid var(--orange);
+        }
+
+        @media (max-width: 768px) {
+            border-left: 3px solid var(--orange);
+        }
+
+        & span a {
+            transition: .3s;
+        }
+
+        & span a:hover {
+            color: var(--orange) !important;
+            transform: translateY(-3px);
+        }
+    }
+}
+
+form {
+
+    .d-flex {
+        position: relative;
+
+        .input-icon {
+            position: absolute;
+            top: 50%;
+            left: .5rem;
+            transform: translateY(-50%);
+        }
+
+        &:nth-last-child(2) .input-icon {
+            top: 0;
+            transform: unset;
+        }
+    }
+
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        position: relative;
+        background-color: transparent;
+        padding: 8px 12px;
+        border: none;
+        border-bottom: 1px solid var(--orange);
+        color: var(--gray-100);
+        transition: .3s;
+        flex-grow: 1;
+        text-indent: 1.8rem;
+        font-size: 1rem;
+
+        &:focus {
+            outline: none;
+            // border-bottom-color: #eb0867;
+        }
+
+        &::placeholder {
+            font-size: .9rem;
+            color: #838383;
+        }
+
+        &.ng-touched.ng-invalid {
+            border-bottom-color: var(--bs-danger);
+        }
+
+    }
+
+    textarea {
+        resize: none;
+    }
+}

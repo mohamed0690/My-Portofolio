@@ -1,0 +1,22 @@
+<div class="d-flex align-items-center gap-3 mb-3">
+    <h2 class="mb-0 text-uppercase fs-25 poppins-font text-dark">Projects</h2>
+    <div class="line"></div>
+</div>
+<h2 class="fs-20 poppins-font text-orange">Things I've built so far</h2>
+<div class="my-3">
+    <div class="project-card mb-2" *ngFor="let project of projects">
+        <img [src]="project.src" [alt]="project.name" loading="lazy">
+        <div class="text">
+            <div class="d-flex justify-content-between align-items-center">
+                <h4 class="mb-0 fs-22 name">{{project.name}}</h4>
+                <div class="links d-flex align-items-center gap-1 gap-md-3">
+                    <a target="_blank" class="button-link" [href]="project.codeUrl">Github</a>
+                    <a target="_blank" class="button-link" [href]="project.demoUrl">Demo</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <span class="tech-used" *ngFor="let item of project.techUsed">{{item}}</span>
+            </div>
+        </div>
+    </div>
+</div>
