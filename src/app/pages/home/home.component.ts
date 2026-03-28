@@ -17,45 +17,45 @@ export class HomeComponent {
     hovered: boolean
   }[] = [
     {
-      name: "Website Development",
-      caption: "Turning Ideas into Interactive Apps",
-      description: "I specialize in developing dynamic web applications, transforming concepts into functional, feature-rich platforms that solve problems and engage users.",
+      name: "Fintech Platforms",
+      caption: "Secure Financial Architectures",
+      description: "Developing robust CRM and client portals for forex brokers with MT4/MT5 integration and real-time trading data synchronization.",
       icon: "assets/services-icons/app-development.webp",
       hovered: false
     },
     {
-      name: "Responsive Design",
-      caption: "Seamless Across All Devices",
-      description: "I ensure that websites and applications I create are responsive, providing a consistent and visually appealing experience on desktops, tablets, and mobile devices.",
+      name: "Blockchain Integration",
+      caption: "Crypto Payment Gateways",
+      description: "Building cryptocurrency payment systems and exchange platforms with multi-chain support for deposits, withdrawals, and staking.",
       icon: "assets/services-icons/responsive-design.webp",
       hovered: false
     },
     {
-      name: "Frontend Optimization",
-      caption: "Speed and Performance Enhancement",
-      description: "I focus on optimizing the frontend code and assets to deliver fast-loading web pages, improving user satisfaction and SEO rankings.",
+      name: "Enterprise Solutions",
+      caption: "Scalable Large-Scale Systems",
+      description: "Engineering CRM and HR platforms tailored for thousands of interactions monthly using modular component architectures.",
       icon: "assets/services-icons/optimization.webp",
       hovered: false
     },
     {
-      name: "Cross-Browser Compatibility",
-      caption: "Consistency on Every Browser",
-      description: "I ensure that websites and web applications function seamlessly on various web browsers, providing a consistent experience to all users.",
+      name: "High-Traffic Engineering",
+      caption: "Performance Optimization",
+      description: "Optimizing lead management and real-time tracking (phone, email, SMS, WhatsApp) to handle heavy data loads and boost conversion.",
       icon: "assets/services-icons/cross-platform.webp",
       hovered: false
     },
     {
-      name: "Code Maintenance",
-      caption: "Keeping Your Codebase Healthy",
-      description: "I provide ongoing support and maintenance to keep your frontend codebase up-to-date, secure, and free from technical issues.",
-      icon: "assets/services-icons/maintenance.webp",
+      name: "Real-Time Systems",
+      caption: "Socket & WebSocket Integration",
+      description: "Implementing real-time communication modules and email notification systems for critical fire and security platforms.",
+      icon: "assets/services-icons/performance.webp",
       hovered: false
     },
     {
-      name: "Performance Analysis",
-      caption: "Data-Driven Improvements",
-      description: "I analyze performance metrics to identify areas for improvement and implement data-driven enhancements that boost user satisfaction and conversion rates.",
-      icon: "assets/services-icons/performance.webp",
+      name: "Full-Stack Development",
+      caption: "End-to-End Scalability",
+      description: "Specializing in the MEARN stack to create seamless, data-driven applications that ensure secure and smooth flow for traders.",
+      icon: "assets/services-icons/maintenance.webp",
       hovered: false
     },
   ]
