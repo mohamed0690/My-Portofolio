@@ -109,5 +109,29 @@ export class SkillsComponent {
       bgColor: "#2687CF",
       textColor: "#fff"
     },
+    {
+      src: "assets/certificates-images/nodeJs.png",
+      name: "Node.js",
+      bgColor: "#339933",
+      textColor: "#fff"
+    },
+    {
+      src: "assets/certificates-images/mongoDB.png",
+      name: "MongoDB",
+      bgColor: "#47A248",
+      textColor: "#fff"
+    },
+    {
+      src: "assets/skills-logos/firebase.webp",
+      name: "Firebase",
+      bgColor: "#FFCA28",
+      textColor: "#000"
+    },
+    {
+      src: "assets/skills-logos/ai.webp",
+      name: "AI",
+      bgColor: "#00A4EF",
+      textColor: "#fff"
+    },
   ]
 }

@@ -30,3 +30,13 @@
         </ul>
     </div>
 </div>
+
+<h3 class="fs-20 poppins-font text-orange mb-3 mt-4">Courses</h3>
+<div class="row pt-2">
+    <div class="col-12 col-md-6 mb-4" *ngFor="let course of courses">
+        <div class="p-3 bg-light-2 border rounded-10 h-100">
+            <h4 class="fs-18 text-sky mb-2 fw-bold text-uppercase poppins-font">{{course.name}}</h4>
+            <p class="fs-14 text-dark mb-0">{{course.details}}</p>
+        </div>
+    </div>
+</div>
