@@ -8,6 +8,27 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
+      src: "",
+      name: "Engaz CRM System",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"]
+    },
+    {
+      src: "",
+      name: "Navi \u2013 Real Estate Platform",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["Angular", "PrimeNG", "Bootstrap"]
+    },
+    {
+      src: "",
+      name: "Engaz HR System",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"]
+    },
+    {
       src: "assets/projects-images/E-Commerce Fresh Cart.webp",
       name: "E-Commerce Fresh Cart",
       codeUrl: "https://github.com/mohamed0690/E-commerce-Angular-Website",
