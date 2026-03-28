@@ -9,6 +9,30 @@ export class ProjectsComponent {
   projects = [
     {
       src: "",
+      name: "Forex CRM & Client Portal",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["Angular", "Fintech API", "MT4/MT5 Integration", "RxJS"],
+      description: "Developed CRM and client portal solutions for forex brokers with MT4/MT5 integration. Implemented secure client onboarding, account management, and trading data synchronization."
+    },
+    {
+      src: "",
+      name: "Cyrafa Pay \u2013 Crypto Payment Gateway",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["Blockchain", "Node.js", "Express", "Secure Payments"],
+      description: "Built and maintained a crypto payment gateway enabling merchants to accept digital currencies. Implemented deposit, withdrawal, and transaction tracking across multiple blockchain networks."
+    },
+    {
+      src: "",
+      name: "Walitca \u2013 Cryptocurrency Exchange Platform",
+      codeUrl: "",
+      demoUrl: "",
+      techUsed: ["React", "Blockchain", "Staking", "Multi-chain Support"],
+      description: "A full-featured crypto trading and exchange platform similar to Binance. Implemented blockchain features for deposits, withdrawals, and staking across various chains."
+    },
+    {
+      src: "",
       name: "Engaz CRM System",
       codeUrl: "",
       demoUrl: "",
