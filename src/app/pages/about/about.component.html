@@ -2,6 +2,22 @@
     <h2 class="mb-0 text-uppercase fs-25 poppins-font text-dark">Resume</h2>
     <div class="line"></div>
 </div>
+
+<h3 class="fs-20 poppins-font text-orange mb-3 mt-3">Experience</h3>
+<div class="timeline-container mb-4">
+    <div class="wrapper">
+        <ul class="sessions">
+            <li class="li-card" *ngFor="let item of experienceTimeline">
+                <div class="time text-dark">{{item.time}}</div>
+                <h4 class="fs-18 text-sky mb-1 fw-bold">{{item.title}}</h4>
+                <h6 class="fs-14 text-red">{{item.name}}</h6>
+                <div class="fs-14 text-dark details mt-2" [innerHTML]="item.details"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<h3 class="fs-20 poppins-font text-orange mb-3 mt-4">Education</h3>
 <div class="timeline-container">
     <div class="wrapper">
         <ul class="sessions">
@@ -9,7 +25,7 @@
                 <div class="time text-dark">{{item.time}}</div>
                 <h4 class="fs-18 text-sky mb-1 fw-bold">{{item.name}}</h4>
                 <h6 class="fs-14 text-red">{{item.title}}</h6>
-                <div class="fs-14 text-dark details" [innerHTML]="item.details"></div>
+                <div class="fs-14 text-dark details mt-2" [innerHTML]="item.details"></div>
             </li>
         </ul>
     </div>
