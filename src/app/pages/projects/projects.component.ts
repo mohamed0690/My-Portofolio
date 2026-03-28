@@ -12,21 +12,24 @@ export class ProjectsComponent {
       name: "Engaz CRM System",
       codeUrl: "",
       demoUrl: "",
-      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"]
+      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"],
+      description: "A high-traffic CRM platform. Engineered a modern, responsive interface with multilingual support powered by ngx-translate. Delivered reusable UI components, advanced form handling, dynamic data tables, and role-based access controls."
     },
     {
       src: "",
       name: "Navi \u2013 Real Estate Platform",
       codeUrl: "",
       demoUrl: "",
-      techUsed: ["Angular", "PrimeNG", "Bootstrap"]
+      techUsed: ["Angular", "PrimeNG", "Bootstrap"],
+      description: "A real estate management platform designed to streamline property listings, client interactions, and sales operations. Built responsive UIs focusing on property management dashboards, lead tracking, and a client portal."
     },
     {
       src: "",
       name: "Engaz HR System",
       codeUrl: "",
       demoUrl: "",
-      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"]
+      techUsed: ["Angular 17", "PrimeNG", "Bootstrap 5", "Sass"],
+      description: "A comprehensive HR management system designed to handle employee data, attendance, payroll, contracts, and performance tracking. Features include interactive data tables, dynamic forms, and a shift management module."
     },
     {
       src: "assets/projects-images/E-Commerce Fresh Cart.webp",

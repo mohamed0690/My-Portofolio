@@ -14,6 +14,9 @@
                     <a *ngIf="project.demoUrl" target="_blank" class="button-link" [href]="project.demoUrl">Demo</a>
                 </div>
             </div>
+            <p *ngIf="project.description" class="fs-14 text-white mb-3" style="font-weight: 300; line-height: 1.6;">
+                {{project.description}}
+            </p>
             <div class="d-flex justify-content-start align-items-center flex-wrap" style="gap: 5px;">
                 <span class="tech-used m-0" *ngFor="let item of project.techUsed">{{item}}</span>
             </div>
